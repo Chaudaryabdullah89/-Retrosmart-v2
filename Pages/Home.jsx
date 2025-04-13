@@ -4,7 +4,7 @@ import Homeaboutus from '../components/Homeaboutus'
 import HomeServices from '../components/HomeServices'
 import Eligibilityform from '../components/Eligibilityform'
 import HomeBenfits from '../components/HomeBenfits'
-import Team from '../components/team'
+import Team from '../components/Team'
 function Home() {
   return (
     <div>
