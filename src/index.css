@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gradient heading styles */
+h1 {
+    background: linear-gradient(135deg, #408b4e, #6f6b2e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Additional heading styles for different levels */
+h2, h3, h4, h5, h6 {
+    background: linear-gradient(135deg, #408b4e, #6f6b2e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+
