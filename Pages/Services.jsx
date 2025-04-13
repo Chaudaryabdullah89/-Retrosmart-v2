@@ -3,18 +3,20 @@ import TopCompnentHero from '../components/TopCompnentHero'
 import HomeBenefits from '../components/HomeBenfits'
 import Paragarh from '../components/Paragarh'
 import HomeServices from '../components/HomeServices'
+import PageTitle from '../components/PageTitle'
 
 const Services = () => {
   return (
     <div>
+      <PageTitle title="Our Services" />
       <TopCompnentHero
         title="Our Services"
-        description="Comprehensive energy efficiency and retrofit solutions tailored to your needs. From initial assessment to final implementation, we provide end-to-end services to make your property more sustainable and energy-efficient."
-        value1="Get Free Quote"
-        value2="Learn More"
-        image="https://www.checkatrade.com/blog/wp-content/uploads/2021/09/retrofit-coordinator-cost.jpeg"
-        onClick2="/Services#details"
-        onClick1="/contact"
+        description="Explore our comprehensive range of energy efficiency services, from insulation and heating upgrades to ECO4 grant applications and property assessments."
+        value1="View Services"
+        value2="Get Quote"
+        image="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+        onClick2="#services-list"
+        onClick1="#quote-form"
       />
 
       <div className="container max-w-6xl mx-auto px-4 py-16">

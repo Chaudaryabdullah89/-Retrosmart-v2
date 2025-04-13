@@ -1,16 +1,18 @@
 import React from 'react';
 import TopCompnentHero from '../components/TopCompnentHero';
+import PageTitle from '../components/PageTitle';
 
 const Contact = () => {
   return (
     <div>
+      <PageTitle title="Contact Retro Smart - Get in Touch" />
       <TopCompnentHero
         title="Contact Us"
-        description="Get in touch with our team of experts to discuss your retrofit needs. We're here to help you make your property more energy-efficient and comfortable."
+        description="Get in touch with our team for any questions about our services, ECO4 grants, or to schedule a consultation."
         value1="Send Message"
-        value2="Call Now"
-        image="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-        onClick2="tel:+1234567890"
+        value2="Call Us"
+        image="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
+        onClick2="#contact-info"
         onClick1="#contact-form"
       />
 

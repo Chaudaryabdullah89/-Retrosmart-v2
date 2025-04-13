@@ -1,9 +1,12 @@
 import React from 'react';
 import TopCompnentHero from '../components/TopCompnentHero';
+import PageTitle from '../components/PageTitle';
 import Teams from '../components/Team';
+
 const Grant = () => {
   return (
     <div>
+      <PageTitle title="ECO4 Grant Application & Information" />
       <TopCompnentHero
         title="ECO4 Grant"
         description="Free Home Energy Grants to improve your home's energy efficiency, covering insulation, boiler, heating systems, and renewable energy systems."
