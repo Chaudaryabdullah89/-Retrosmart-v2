@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Services from './Pages/Services';
-import Contact from './Pages/Contact';
-import Grant from './Pages/Grant';
-import Eligibility from './Pages/Eligibility';
-import Retrofitevaluation from './Pages/Retrofitevaluation';
-import Retrofitdesign from './Pages/Retrofitdesign';
-import Retrofitcoordination from './Pages/Retrofitcoordination';
-import NotFound from './components/NotFound';
+import Home from '../Pages/Home';
+import About from '../Pages/About';
+import Services from '../Pages/Services';
+import Contact from '../Pages/Contact';
+import Grant from '../Pages/Grant';
+import Eligibility from '../Pages/Eligibility';
+import Retrofitevaluation from '../Pages/Retrofitevaluation';
+import Retrofitdesign from '../Pages/Retrofitdesign';
+import Retrofitcoordination from '../Pages/Retrofitcoordination';
+import NotFound from '../components/NotFound';
 import './App.css'
 import Nav from '../components/nav'
 import Footer from '../components/Footer'
