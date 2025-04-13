@@ -10,20 +10,20 @@ import Retrofitevaluation from '../Pages/Retrofitevaluation';
 import Retrofitdesign from '../Pages/Retrofitdesign';
 import Retrofitcoordination from '../Pages/Retrofitcoordination';
 import NotFound from '../components/NotFound';
-import './App.css'
-import Nav from '../components/nav'
-import Footer from '../components/Footer'
-import EcoInstallation from '../Pages/EcoInstallation'
-import Externalwallinsulation from '../Pages/Externalwallinsulation'
-import Internalwallinsulation from '../Pages/Internalwallinsulation'
-import Loftinsulation from '../Pages/Loftinsulation'
-import Smartheatingcontrols from '../Pages/Smartheatingcontrols'
-import Retrofitassessment from '../Pages/Retrofitassessment'
-import Aboutus from '../Pages/Aboutus'
+import './App.css';
+import Nav from '../components/nav';
+import Footer from '../components/Footer';
+import EcoInstallation from '../Pages/EcoInstallation';
+import Externalwallinsulation from '../Pages/Externalwallinsulation';
+import Internalwallinsulation from '../Pages/Internalwallinsulation';
+import Loftinsulation from '../Pages/Loftinsulation';
+import Smartheatingcontrols from '../Pages/Smartheatingcontrols';
+import Retrofitassessment from '../Pages/Retrofitassessment';
+import Aboutus from '../Pages/Aboutus';
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -46,7 +46,7 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 };
 
