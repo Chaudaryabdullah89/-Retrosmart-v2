@@ -10,8 +10,8 @@ const RetrofitCoordination = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://www.checkatrade.com/blog/wp-content/uploads/2021/09/retrofit-coordinator-cost.jpeg"
-        onClick2="/Retrofit-Coordination#details"
-        onClick1="/contact"
+        onClick2="/Retrofit-Coordination"
+        onClick1="/Contact"
       />
       <div
         id=""

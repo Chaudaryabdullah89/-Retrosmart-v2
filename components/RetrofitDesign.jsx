@@ -10,8 +10,8 @@ const RetrofitDesign = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://ecotarget.co.uk/wp-content/uploads/2023/02/retrofit-design.jpg"
-        onClick2="/Retrofit-Design#details"
-        onClick1="/contact"
+        onClick2="/Retrofit-Design"
+        onClick1="/Contact"
       />
       <div
         id=""

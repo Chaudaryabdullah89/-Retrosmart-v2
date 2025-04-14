@@ -10,8 +10,8 @@ const LoftInsulation = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://www.icecleaning.co.uk/media/images/uploaded/inline/how-does-loft-insulation-work.1707842278.jpg"
-        onClick2="/Loft-Insulation#details"
-        onClick1="/contact"
+        onClick2="/Loft-Insulation"
+        onClick1="/Contact"
       />
       <div
         id=""

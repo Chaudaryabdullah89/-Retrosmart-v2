@@ -10,8 +10,8 @@ const InternalWallInsulation = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://cdn.prod.website-files.com/63f506047d103546cf06bf03/640512ac8128be10a7f99cf3_internal-wall-insulation-1.jpg"
-        onClick2="/Internal-Wall-Insulation#details"
-        onClick1="/contact"
+        onClick2="/Internal-Wall-Insulation"
+        onClick1="/Contact"
       />
       <div
         id=""

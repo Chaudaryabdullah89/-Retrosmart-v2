@@ -11,8 +11,8 @@ const RetrofitEvaluation = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://ecotarget.co.uk/wp-content/uploads/2023/02/retrofit-evaluation.jpg"
-        onClick2="/Retrofit-Evaluation#details"
-        onClick1="/contact"
+        onClick2="/Retrofit-Evaluation"
+        onClick1="/Contact"
       />
       <div id="" className="container max-w-5xl mx-auto px-4 py-16 space-y-4">
         <h1 id="details" className="text-2xl font-bold">

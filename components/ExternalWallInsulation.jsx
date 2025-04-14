@@ -10,8 +10,8 @@ const ExternalWallInsulation = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://corksoluk.com/wp-content/uploads/2022/04/4-External-Wall-Insulation-Problems-How-to-Solve-Them.jpg"
-        onClick2="/External-Wall-Insulation#details"
-        onClick1="/contact"
+        onClick2="/External-Wall-Insulation"
+        onClick1="/Contact"
       />
       <div
         id=""

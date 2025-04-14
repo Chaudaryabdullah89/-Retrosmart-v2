@@ -10,8 +10,8 @@ const SmartHeatingControls = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://starkheatingandgas.com/wp-content/uploads/2023/09/The-Benefits-of-Smart-Heating-Controls-1.jpg"
-        onClick2="/Smart-Heating-Controls#details"
-        onClick1="/contact"
+        onClick2="/Smart-Heating-Controls"
+        onClick1="/Contact"
       />
       <div
         id=""

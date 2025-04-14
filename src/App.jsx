@@ -20,7 +20,7 @@ import Loftinsulation from '../Pages/Loftinsulation';
 import Smartheatingcontrols from '../Pages/Smartheatingcontrols';
 import Retrofitassessment from '../Pages/Retrofitassessment';
 import Aboutus from '../Pages/Aboutus';
-
+import Grantandfunding from '../Pages/Grant';
 const App = () => {
   return (
     <>
@@ -42,6 +42,7 @@ const App = () => {
         <Route path="/Smart-Heating-Controls" element={<Smartheatingcontrols />} />
         <Route path="/Retrofit-Assessment" element={<Retrofitassessment />} />
         <Route path="/About-Us" element={<Aboutus />} />
+        <Route path="/Grant-And-Funding" element={<Grantandfunding />} />
         {/* Catch all route for 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>

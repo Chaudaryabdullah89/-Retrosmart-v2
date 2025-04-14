@@ -10,8 +10,8 @@ const RetrofitAssessment = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="https://hunt-a-epc.co.uk/wp-content/uploads/2023/02/retrofit-assessments.jpg"
-        onClick2="/Retrofit-Assessment#details"
-        onClick1="/contact"
+        onClick2="/Retrofit-Assessment"
+        onClick1="/Contact"
       />
       <div
         id=""
