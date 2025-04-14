@@ -9,7 +9,7 @@ const ExternalWallInsulation = () => {
         description="Transform your home's energy efficiency with our professional external wall insulation services. Save on energy bills and increase your property value."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://corksoluk.com/wp-content/uploads/2022/04/4-External-Wall-Insulation-Problems-How-to-Solve-Them.jpg"
+        image="/images/4-External-Wall-Insulation-Problems-How-to-Solve-Them.jpg"
         onClick2="/External-Wall-Insulation"
         onClick1="/Contact"
       />
@@ -36,7 +36,7 @@ const ExternalWallInsulation = () => {
         </p>
         <hr />
         <img
-          src="https://insulationgo.co.uk/image/catalog/blog/external-wall-insulation-problems/externall-wall-insulation-installation.jpg"
+          src="/images/externall-wall-insulation-installation.jpg"
           className="w-[100%] h-[60%] rounded-lg mx-auto"
           alt=""
         />
@@ -82,7 +82,7 @@ The cavity wall by comparison is an impermeable wall in that the cavity is inten
 <br className="" />
 Many modern insulation materials are usually non-permeable and will be rendered or clad to prevent rainwater penetration. However, they do not stop moisture reaching the internal surface of the wall from people and what they do — and that can mean that more ventilation is needed to remove the moist air before it gets to the walls.
 </p>
-<img src="https://cdn.mos.cms.futurecdn.net/PnpUHNe8txt5nea57EPtLW-970-80.jpg.webp" alt="" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+<img src="/images/PnpUHNe8txt5nea57EPtLW-970-80.jpg.webp" alt="" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 <p className="text-gray-600  pt-4 " style={{ fontFamily: "Barlow" }}>
 Getting the detailing right is key to avoiding damp problems," advises Ian. "For example window sills need to project sufficiently so they’re clear of the thicker insulated wall surfaces, otherwise the sills will need to be extended or the windows replaced, adding to cost.
 <br />
@@ -115,7 +115,7 @@ Solid stone walls tend not to be ‘solid’ at all. They usually have a rubble-
 
 However, stone walls tend to be breathing walls and maintaining this breathability ensures that the wall continues to operate as designed. In this case, using a breathable insulation – natural insulation like wood fibre, cork or the like works well – with a lime external render makes good sense.</p>
 <hr className="border-gray-300 mb-10 "  />
-<img src="https://cdn.mos.cms.futurecdn.net/bxbXuk7drPhhpe6zeTwMaB-970-80.jpg.webp" alt="" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+<img src="/images/bxbXuk7drPhhpe6zeTwMaB-970-80.jpg.webp" alt="" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 <p className="text-gray-600  " style={{ fontFamily: "Barlow" }}>
 One ideal solution would be a 90mm layer of wood fibre board – Diffutherm, Pavatex or similar – mechanically fixed to the wall. These materials are ready to accept render. A 20mm thickness of hemp-lime render would be applied in two 10mm coats. The hemp-lime can be coloured to suit or painted with a lime wash.
 <br /><br />

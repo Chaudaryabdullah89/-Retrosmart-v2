@@ -9,7 +9,7 @@ const RetrofitCoordination = () => {
         description="Ensure the success of your retrofit project with our professional coordination services. We manage the entire process from planning to completion."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://www.checkatrade.com/blog/wp-content/uploads/2021/09/retrofit-coordinator-cost.jpeg"
+        image="/images/team-member-2.jpg"
         onClick2="/Retrofit-Coordination"
         onClick1="/Contact"
       />
@@ -28,7 +28,7 @@ const RetrofitCoordination = () => {
         </p>
         <hr />
         <img
-          src="https://buildingenergyexperts.co.uk/wp-content/uploads/2024/10/Retrofit-Coordination.jpeg"
+          src="/images/Retrofit-Coordination.jpeg"
           className="w-[100%] h-[60%] rounded-lg mx-auto"
           alt="Retrofit Coordination Process"
         />
@@ -78,7 +78,7 @@ const RetrofitCoordination = () => {
           • Final inspection and sign-off
         </p>
 
-        <img src="https://energy-trust.co.uk/wp-content/uploads/2020/12/House-Rating-800x450.webp" alt="Retrofit Coordination Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/House-Rating-800x450.webp" alt="Retrofit Coordination Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 
         <hr className="border-gray-300 mb-10 "  />
 

@@ -9,7 +9,7 @@ const RetrofitAssessment = () => {
         description="Get a comprehensive assessment of your property's energy efficiency and identify the best retrofit solutions to improve its performance."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://hunt-a-epc.co.uk/wp-content/uploads/2023/02/retrofit-assessments.jpg"
+        image="/images/team-member-4.jpg"
         onClick2="/Retrofit-Assessment"
         onClick1="/Contact"
       />
@@ -28,7 +28,7 @@ const RetrofitAssessment = () => {
         </p>
         <hr />
         <img
-          src="https://buildingenergyexperts.co.uk/wp-content/uploads/2024/09/WECA-Retrofit-Draycott-Rd-22.jpg"
+          src="/images/team-member-5.jpg"
           className="w-[100%] h-[60%] rounded-lg mx-auto"
           alt="Retrofit Assessment Process"
         />
@@ -78,7 +78,7 @@ const RetrofitAssessment = () => {
           • Production of detailed report and recommendations
         </p>
 
-        <img src="https://greenthinkinc.com/wp-content/uploads/2024/01/Energize-Your-Home.webp" alt="Retrofit Assessment Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/Energize-Your-Home.webp" alt="Retrofit Assessment Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 
         <hr className="border-gray-300 mb-10 "  />
 

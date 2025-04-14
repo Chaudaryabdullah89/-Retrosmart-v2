@@ -7,7 +7,7 @@ const Eligibilityform = () => {
       <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center mb-12'>
           <img 
-            src="https://eco4grants.co.uk/wp-content/uploads/2024/07/6580d2de5a248f6ff386e2fc-1-1-1-1024x695.png"
+            src="/images/6580d2de5a248f6ff386e2fc-1-1-1-1024x695.png"
             alt="Gov logo" 
             className='w-32 mx-auto mb-6'
           />
@@ -22,7 +22,7 @@ const Eligibilityform = () => {
         <form 
           className='relative rounded-xl shadow-lg p-8 overflow-hidden'
           style={{
-            backgroundImage: 'url("https://retrosmart.co.uk/images/Mainformbg.png")',
+            backgroundImage: 'url("/images/Energize-Your-Home.webp")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'

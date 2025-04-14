@@ -11,7 +11,7 @@ const AboutUs = () => {
         description="We are experts in energy efficiency and retrofit solutions, helping homeowners and businesses reduce their energy consumption and carbon footprint."
         value1="Get Free Quote" 
         value2="Learn More"
-        image="https://www.checkatrade.com/blog/wp-content/uploads/2021/09/retrofit-coordinator-cost.jpeg"
+        image="/images/team-member-2.jpg"
         onClick2="/About-Us#details"
         onClick1="/contact"
       />
@@ -88,7 +88,7 @@ const AboutUs = () => {
         </h1>
         
         <img 
-          src="https://lowcarbonexchange.com/wp-content/uploads/revslider/video-media/EPC-Video_93_layer1.jpeg"
+          src="/images/EPC-Video_93_layer1.jpeg"
           alt="Retrofit Process"
           className="w-full rounded-lg my-4"
         />
@@ -180,7 +180,7 @@ const AboutUs = () => {
 
         <div className='mt-10'>
           <h1 className='text-3xl font-bold pt-6 flex items-center'>Our Credentials</h1>
-          <img src="https://www.checkatrade.com/blog/wp-content/uploads/2021/09/retrofit-coordinator-cost.jpeg" alt="Our Credentials" className='w-full rounded-lg my-4' />
+          <img src="/images/team-member-2.jpg" alt="Our Credentials" className='w-full rounded-lg my-4' />
        <p className='text-gray-600' style={{ fontFamily: "Barlow" }}>
        In addition to our extensive qualifications in energy efficiency and retrofit, we are accredited with Elmhurst and TrustMark. We hold comprehensive retrofit insurance coverage and collaborate with a wide range of clients, including installers, Local Authorities, Housing Associations, private landlords, and individual homeowners across the UK.
 <br /><br />

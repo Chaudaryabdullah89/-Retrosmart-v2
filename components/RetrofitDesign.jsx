@@ -9,7 +9,7 @@ const RetrofitDesign = () => {
         description="Get a comprehensive retrofit design that optimizes your property's energy efficiency while maintaining its character and functionality."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://ecotarget.co.uk/wp-content/uploads/2023/02/retrofit-design.jpg"
+        image="/images/team-member-1.jpg"
         onClick2="/Retrofit-Design"
         onClick1="/Contact"
       />
@@ -28,7 +28,7 @@ const RetrofitDesign = () => {
         </p>
         <hr />
         <img
-          src="https://i0.wp.com/eco4gurus.co.uk/wp-content/uploads/2023/08/construction-design.jpg?fit=346%2C346&ssl=1"
+          src="/images/construction-design.jpg?fit=346%2C346&ssl=1"
           className="w-[100%] h-[60%] rounded-lg mx-auto"
           alt="Retrofit Design Process"
         />
@@ -78,7 +78,7 @@ const RetrofitDesign = () => {
           • Regulatory compliance checking
         </p>
 
-        <img src="https://sanrachana.in/wp-content/uploads/2024/08/Retrofit-design-1-1024x702.jpg" alt="Retrofit Design Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/Retrofit-design-1-1024x702.jpg" alt="Retrofit Design Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 
         <hr className="border-gray-300 mb-10 "  />
 

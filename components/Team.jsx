@@ -7,27 +7,27 @@ const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      image: 'https://retrosmart.co.uk/images/trust-mark.png',
+      image: '/public/images/trust-mark.png',
       alt: 'Team Member 1'
     },
     {
       id: 2,
-      image: 'https://retrosmart.co.uk/images/2nd.jpg',
+      image: '/public/images/2nd.jpg',
       alt: 'Team Member 2'
     },
     {
       id: 3,
-      image: 'https://retrosmart.co.uk/images/3rd.jpg',
+      image: '/public/images/3rd.jpg',
       alt: 'Team Member 3'
     },
     {
       id: 4,
-      image: 'https://retrosmart.co.uk/images/4th.jpg',
+      image: '/public/images/4th.jpg',
       alt: 'Team Member 4'
     },
     {
       id: 5,
-      image: 'https://retrosmart.co.uk/images/5th.jpg',
+      image: '/public/images/5th.jpg',
       alt: 'Team Member 5'
     }
   ]

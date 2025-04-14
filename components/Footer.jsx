@@ -8,7 +8,7 @@ const Footer = () => {
       className="relative border-t border-gray-300 mt-10 overflow-hidden" 
       style={{ 
         borderRadius: '51px 51px 0 0',
-        backgroundImage: 'url("https://retrosmart.co.uk/images/footerbg.png")',
+        backgroundImage: 'url("/images/EPC-Video_93_layer1.jpeg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'

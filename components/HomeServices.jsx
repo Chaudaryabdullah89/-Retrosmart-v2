@@ -5,7 +5,7 @@ const HomeServices = () => {
     {
       id: 1,
       title: 'External Wall Insulation',
-      image: 'https://retrosmart.co.uk/images/externalwallinsulation.jpeg',
+      image: '/images/4-External-Wall-Insulation-Problems-How-to-Solve-Them.jpg',
       description: "We provide external wall insulation which is an effective way to improve your home's energy efficiency and reduce heating bills.",
       link: 'External-Wall-Insulation'
     },
@@ -33,28 +33,28 @@ const HomeServices = () => {
     {
       id: 5,
       title: 'Retrofit Assessment',
-      image: 'https://retrosmart.co.uk/images/bg_3.jpg',
+      image: '/images/Energize-Your-Home.webp',
       description: "We conduct Retrofit Assessments to collect the data to be used by retrofit coordinator.",
       link: 'Retrofit-Assessment'
     },
     {
       id: 6,
       title: 'Retrofit Coordination',
-      image: 'https://retrosmart.co.uk/images/bg_icon_2.jpg',
+      image: '/images/House-Rating-800x450.webp',
       description: "We provide retrofit coordination services to installers, social landlords and home owners.",
       link: 'Retrofit-Coordination'
     },
     {
       id: 7,
       title: 'Retrofit Design',
-      image: 'https://retrosmart.co.uk/images/bg_!.jpg',
+      image: '/images/construction-design.jpg',
       description: "Our retrofit designers use the assessment to design relevant energy efficiency improvements to the dwellings.",
       link: 'Retrofit-Design'
     },
     {
       id: 8,
       title: 'Retrofit Evaluation',
-      image: 'https://retrosmart.co.uk/images/bg4.jpg',
+      image: '/images/Retrofit-Coordination.jpeg',
       description: "Our Retrofit Evaluation service ensures that all retrofit measures are performing as intended.",
       link: 'Retrofit-Evaluation'
     }

@@ -9,7 +9,7 @@ const LoftInsulation = () => {
         description="Maximize your home's energy efficiency with our professional loft insulation services. Prevent heat loss through your roof and reduce your energy bills significantly."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://www.icecleaning.co.uk/media/images/uploaded/inline/how-does-loft-insulation-work.1707842278.jpg"
+        image="/images/how-does-loft-insulation-work.1707842278.jpg"
         onClick2="/Loft-Insulation"
         onClick1="/Contact"
       />
@@ -72,7 +72,7 @@ const LoftInsulation = () => {
           • Multi-layer Insulation: Combines different materials for optimal performance
         </p>
 
-        <img src="https://api.content.travisperkins.co.uk/site/binaries/content/gallery/loft-insulation-buying-guide-v2.jpg" alt="Types of Loft Insulation" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/loft-insulation-buying-guide-v2.jpg" alt="Types of Loft Insulation" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 
         <hr className="border-gray-300 mb-10 "  />
 

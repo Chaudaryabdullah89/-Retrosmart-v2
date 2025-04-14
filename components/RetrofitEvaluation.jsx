@@ -10,7 +10,7 @@ const RetrofitEvaluation = () => {
         description="Ensure your retrofit measures are performing as intended with our comprehensive evaluation services. We assess the effectiveness of implemented measures and provide recommendations for optimization."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://ecotarget.co.uk/wp-content/uploads/2023/02/retrofit-evaluation.jpg"
+        image="/images/team-member-3.jpg"
         onClick2="/Retrofit-Evaluation"
         onClick1="/Contact"
       />
@@ -26,7 +26,7 @@ const RetrofitEvaluation = () => {
         </p>
         <hr />
         <img
-          src="https://img1.wsimg.com/isteam/ip/0ae490d9-065f-441b-b25f-5057bcd2837d/iStock-1149551793.jpg/:/cr=t:0%25,l:0%25,w:86.8%25,h:100%25/rs=w:600,h:300,cg:true"
+          src="/images/iStock-1149551793.jpg/:/cr=t:0%25,l:0%25,w:86.8%25,h:100%25/rs=w:600,h:300,cg:true"
           className="w-[100%] h-[60%] rounded-lg mx-auto"
           alt="Retrofit Evaluation Process"
         />
@@ -76,7 +76,7 @@ const RetrofitEvaluation = () => {
           • Performance reporting
         </p>
 
-        <img src="https://greenthinkinc.com/wp-content/uploads/2024/01/Energize-Your-Home.webp" alt="Retrofit Evaluation Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/Energize-Your-Home.webp" alt="Retrofit Evaluation Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 
         <hr className="border-gray-300 mb-10" />
 

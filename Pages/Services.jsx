@@ -26,7 +26,7 @@ const Services = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="flex flex-col items-center text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-            <img src="https://cdn.mos.cms.futurecdn.net/PnpUHNe8txt5nea57EPtLW-970-80.jpg.webp" alt="Wall Insulation" className="w-full h-48 object-cover rounded-lg mb-6"/>
+            <img src="/images/PnpUHNe8txt5nea57EPtLW-970-80.jpg.webp" alt="Wall Insulation" className="w-full h-48 object-cover rounded-lg mb-6"/>
             <h3 className="font-bold text-2xl mb-4">Wall Insulation</h3>
             <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
               External & internal wall insulation solutions for optimal thermal performance, reducing heat loss and improving energy efficiency.

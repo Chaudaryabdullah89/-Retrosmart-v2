@@ -9,7 +9,7 @@ const SmartHeatingControls = () => {
         description="Upgrade your home's heating system with our smart heating controls. Gain precise control over your heating, reduce energy consumption, and enhance comfort."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://starkheatingandgas.com/wp-content/uploads/2023/09/The-Benefits-of-Smart-Heating-Controls-1.jpg"
+        image="/images/The-Benefits-of-Smart-Heating-Controls-1.jpg"
         onClick2="/Smart-Heating-Controls"
         onClick1="/Contact"
       />
@@ -74,7 +74,7 @@ const SmartHeatingControls = () => {
           • Multi-zone Systems: Control different areas of your home independently
         </p>
 
-        <img src="https://www.novismarthome.co.uk/wp-content/uploads/2018/09/Benefits-of-a-Smart-Control-System.jpg" alt="Types of Smart Heating Controls" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/Benefits-of-a-Smart-Control-System.jpg" alt="Types of Smart Heating Controls" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 
         <hr className="border-gray-300 mb-10 "  />
 

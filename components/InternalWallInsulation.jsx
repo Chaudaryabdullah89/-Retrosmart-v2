@@ -9,7 +9,7 @@ const InternalWallInsulation = () => {
         description="Enhance your home's energy efficiency with our professional internal wall insulation services. Reduce heat loss and create a more comfortable living environment."
         value1="Get Free Quote"
         value2="Learn More"
-        image="https://cdn.prod.website-files.com/63f506047d103546cf06bf03/640512ac8128be10a7f99cf3_internal-wall-insulation-1.jpg"
+        image="/images/640512ac8128be10a7f99cf3_internal-wall-insulation-1.jpg"
         onClick2="/Internal-Wall-Insulation"
         onClick1="/Contact"
       />
@@ -28,7 +28,7 @@ const InternalWallInsulation = () => {
         </p>
         <hr />
         <img
-          src="https://cdn.mos.cms.futurecdn.net/rfUFcAgdeAcpW9NN9bQrqQ-650-80.jpg.webp"
+          src="/images/rfUFcAgdeAcpW9NN9bQrqQ-650-80.jpg.webp"
           className="w-[100%] h-[60%] rounded-lg mx-auto"
           alt="Internal Wall Insulation Installation"
         />
@@ -75,7 +75,7 @@ const InternalWallInsulation = () => {
           • The importance of proper detailing around windows and doors
         </p>
 
-        <img src="https://cdn.mos.cms.futurecdn.net/fs6zFLVUwZ3tAHtpFANMcR-970-80.jpg.webp" alt="Internal Wall Insulation Detail" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/fs6zFLVUwZ3tAHtpFANMcR-970-80.jpg.webp" alt="Internal Wall Insulation Detail" className="w-[100%] h-[60%] rounded-lg mx-auto" />
 
         <hr className="border-gray-300 mb-10 "  />
 
