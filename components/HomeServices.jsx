@@ -12,21 +12,21 @@ const HomeServices = () => {
     {
       id: 2,
       title: 'Internal Wall Insulation',
-      image: 'https://retrosmart.co.uk/images/internal wall insulation.jpeg',
+      image: 'https://www.retrosmart.co.uk/images/PnpUHNe8txt5nea57EPtLW-970-80.jpg.webp',
       description: "We provide insulation to the interior face of external walls in order to improve the thermal performance of the property.",
       link: 'Internal-Wall-Insulation'
     },
     {
       id: 3,
       title: 'Loft Insulation',
-      image: 'https://retrosmart.co.uk/images/Loft Insulation.jpeg',
+      image: 'https://www.retrosmart.co.uk/images/loft-insulation-buying-guide-v2.jpg',
       description: "We provide loft insulation which can cut your energy bills and help keep your home warm, as it prevents heat escaping through the loft. It is an effective way to save your energy.",
       link: 'Loft-Insulation'
     },
     {
       id: 4,
       title: 'Smart Heating Controls',
-      image: 'https://retrosmart.co.uk/images/Smart Heating Controls.jpeg',
+      image: 'https://www.retrosmart.co.uk/images/Benefits-of-a-Smart-Control-System.jpg',
       description: "We provide smart heating controls which helps keep your home comfortable but can reduce heating and cooling costs.",
       link: 'smart-heating-controls'
     },
