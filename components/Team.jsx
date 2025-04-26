@@ -7,7 +7,7 @@ const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      image: '../public/images/trust-mark.png',
+      image: 'retrosmart.co.uk/public/images/trust-mark.png',
       alt: 'Team Member 1'
     },
     {
