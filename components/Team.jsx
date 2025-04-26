@@ -27,7 +27,7 @@ const Team = () => {
     },
     {
       id: 4,
-      image:, img4
+      image: img4,
       alt: 'Team Member 4'
     },
     {
