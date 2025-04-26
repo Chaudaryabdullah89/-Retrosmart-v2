@@ -1,6 +1,10 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import img1 from '../public/images/trust-mark.png'
+import img2 from '../public/images/2nd.jpg'
+import img3 from '../public/images/3rd.jpg'
+import img4 from '../public/images/4th.jpg'
+import img5 from '../public/images/5th.jpg'
 // import img1 from '..
 const Team = () => {
   const navigate = useNavigate()
@@ -13,22 +17,22 @@ const Team = () => {
     },
     {
       id: 2,
-      image: '../public/images/2nd.jpg',
+      image: img2,
       alt: 'Team Member 2'
     },
     {
       id: 3,
-      image: '../public/images/3rd.jpg',
+      image: img3,
       alt: 'Team Member 3'
     },
     {
       id: 4,
-      image: '../public/images/4th.jpg',
+      image:, img4
       alt: 'Team Member 4'
     },
     {
       id: 5,
-      image: '../public/images/5th.jpg',
+      image: img5,
       alt: 'Team Member 5'
     }
   ]
