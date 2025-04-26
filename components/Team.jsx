@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import img1 from '../public/images/trust-mark.png'
 // import img1 from '..
 const Team = () => {
   const navigate = useNavigate()
@@ -7,7 +8,7 @@ const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      image: 'retrosmart.co.uk/public/images/trust-mark.png',
+      image: img1,
       alt: 'Team Member 1'
     },
     {
