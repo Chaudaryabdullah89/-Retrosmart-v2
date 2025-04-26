@@ -1,33 +1,33 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
+// import img1 from '..
 const Team = () => {
   const navigate = useNavigate()
 
   const teamMembers = [
     {
       id: 1,
-      image: '/public/images/trust-mark.png',
+      image: '../public/images/trust-mark.png',
       alt: 'Team Member 1'
     },
     {
       id: 2,
-      image: '/public/images/2nd.jpg',
+      image: '../public/images/2nd.jpg',
       alt: 'Team Member 2'
     },
     {
       id: 3,
-      image: '/public/images/3rd.jpg',
+      image: '../public/images/3rd.jpg',
       alt: 'Team Member 3'
     },
     {
       id: 4,
-      image: '/public/images/4th.jpg',
+      image: '../public/images/4th.jpg',
       alt: 'Team Member 4'
     },
     {
       id: 5,
-      image: '/public/images/5th.jpg',
+      image: '../public/images/5th.jpg',
       alt: 'Team Member 5'
     }
   ]
