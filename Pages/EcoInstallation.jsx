@@ -5,7 +5,7 @@ import Team from '../components/Team'
 
 const EcoInstallation = () => {
   return (
-    <div>
+    <div className='mt-20'>
       <Eligibilityform />
       <HomeBenfits />
 

@@ -10,17 +10,17 @@ const InternalWallInsulation = () => {
         value1="Get Free Quote"
         value2="Learn More"
         image="/images/640512ac8128be10a7f99cf3_internal-wall-insulation-1.jpg"
-        onClick2="/Internal-Wall-Insulation"
-        onClick1="/Contact"
+           onClick2="#details"
+        onClick1="/contact"
       />
       <div
         id=""
         className="container max-w-5xl mx-auto px-4 py-16 space-y-4 "
       >
-        <h1 id="details" className="text-2xl font-bold">
+        <h1 id="details" className="text-2xl font-bold" data-aos="fade-up">
           More about Internal Wall Insulation
         </h1>
-        <p id="" className="text-gray-600" style={{ fontFamily: "Barlow" }}>
+        <p id="" className="text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
           Internal wall insulation is a method of insulating the interior surfaces of external walls to improve thermal efficiency. This approach is particularly useful for properties where external insulation isn't suitable or desirable. It involves adding insulation material to the inside of external walls, which is then covered with plasterboard or other finishes.
           <br />
           <br />
@@ -31,23 +31,25 @@ const InternalWallInsulation = () => {
           src="/images/rfUFcAgdeAcpW9NN9bQrqQ-650-80.jpg.webp"
           className="w-[100%] h-[60%] rounded-lg mx-auto"
           alt="Internal Wall Insulation Installation"
+          data-aos="zoom-in"
+          data-aos-delay="200"
         />
         <hr className="border-gray-300 mt-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
+        <h1 className="text-2xl  border-gray-300  font-bold pt-6" data-aos="fade-up">
           What is internal wall insulation?
         </h1>
-        <Paragarh text="Internal wall insulation involves adding a layer of insulation material to the inside of external walls. This can be done using various methods, including rigid insulation boards, insulated plasterboard, or stud walls with insulation between them." />
+        <Paragarh text="Internal wall insulation involves adding a layer of insulation material to the inside of external walls. This can be done using various methods, including rigid insulation boards, insulated plasterboard, or stud walls with insulation between them." data-aos="fade-up" data-aos-delay="100" />
 
-        <Paragarh text="The choice of insulation method depends on several factors, including the type of property, the condition of the walls, and the desired level of thermal performance. Each method has its advantages and considerations, which our experts can help you navigate." />
+        <Paragarh text="The choice of insulation method depends on several factors, including the type of property, the condition of the walls, and the desired level of thermal performance. Each method has its advantages and considerations, which our experts can help you navigate." data-aos="fade-up" data-aos-delay="200" />
 
         <hr className="border-gray-300 mt-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
+        <h1 className="text-2xl  border-gray-300  font-bold pt-6" data-aos="fade-up">
           Advantages of Internal Wall Insulation
         </h1>
 
-        <p className="pb-4">
+        <p className="pb-4" data-aos="fade-up" data-aos-delay="100">
           <ul className="list-disc list-inside">
             <li className="text-black font-semibold ml-6 mb-2">Preserves the external appearance of the building</li>
             <li className="text-black font-semibold ml-6 mb-2">Can be installed room by room, allowing for phased implementation</li>
@@ -58,10 +60,10 @@ const InternalWallInsulation = () => {
 
         <hr className="border-gray-300 mb-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
+        <h1 className="text-2xl  border-gray-300  font-bold pt-6" data-aos="fade-up">
           Considerations for Internal Wall Insulation
         </h1>
-        <p className="pb-4 text-gray-600" style={{ fontFamily: "Barlow" }}>
+        <p className="pb-4 text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
           Before installing internal wall insulation, several important factors need to be considered:
           <br /><br />
           • The condition of existing walls and any damp issues
@@ -75,14 +77,14 @@ const InternalWallInsulation = () => {
           • The importance of proper detailing around windows and doors
         </p>
 
-        <img src="/images/fs6zFLVUwZ3tAHtpFANMcR-970-80.jpg.webp" alt="Internal Wall Insulation Detail" className="w-[100%] h-[60%] rounded-lg mx-auto" />
+        <img src="/images/fs6zFLVUwZ3tAHtpFANMcR-970-80.jpg.webp" alt="Internal Wall Insulation Detail" className="w-[100%] h-[60%] rounded-lg mx-auto" data-aos="zoom-in" data-aos-delay="200" />
 
         <hr className="border-gray-300 mb-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
+        <h1 className="text-2xl  border-gray-300  font-bold pt-6" data-aos="fade-up">
           Types of Internal Wall Insulation
         </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
+        <p className="text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
           There are several methods of installing internal wall insulation:
           <br /><br />
           1. Insulated Plasterboard: A quick and effective solution that combines insulation with a finished surface
@@ -96,10 +98,10 @@ const InternalWallInsulation = () => {
 
         <hr className="border-gray-300 mb-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
+        <h1 className="text-2xl  border-gray-300  font-bold pt-6" data-aos="fade-up">
           Installation Process
         </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
+        <p className="text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
           Our professional installation process includes:
           <br /><br />
           • Initial assessment and survey
@@ -117,10 +119,10 @@ const InternalWallInsulation = () => {
 
         <hr className="border-gray-300 mb-10 "  />
 
-        <h2 className="text-lg border-gray-300  font-bold pt-6">
+        <h2 className="text-lg border-gray-300  font-bold pt-6" data-aos="fade-up">
           What U-value does it provide?
         </h2>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
+        <p className="text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
           Internal wall insulation can achieve U-values of around 0.30 W/m²K, significantly improving the thermal performance of your walls. The exact U-value achieved will depend on the type of insulation used and the thickness of the material.
         </p>
       </div>

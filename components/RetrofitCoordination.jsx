@@ -1,145 +1,136 @@
 import React from "react";
 import TopCompnentHero from "./TopCompnentHero";
 import Paragarh from "./Paragarh";
+import { Link as RouterLink } from "react-router-dom";
+
 const RetrofitCoordination = () => {
   return (
     <div>
       <TopCompnentHero
         title="Retrofit Coordination"
-        description="Ensure the success of your retrofit project with our professional coordination services. We manage the entire process from planning to completion."
-        value1="Get Free Quote"
+        description="Let us manage your entire retrofit project from start to finish. Our expert coordination services ensure smooth implementation of energy efficiency measures."
+        value1="Get Started"
         value2="Learn More"
         image="/images/team-member-2.jpg"
-        onClick2="/Retrofit-Coordination"
-        onClick1="/Contact"
+     onClick2="#details"
+        onClick1="/contact"
       />
-      <div
-        id=""
-        className="container max-w-5xl mx-auto px-4 py-16 space-y-4 "
-      >
-        <h1 id="details" className="text-2xl font-bold">
-          More about Retrofit Coordination
+      <div className="container max-w-5xl mx-auto px-4 py-16 space-y-4">
+        <h1 id="details" className="text-2xl font-bold" data-aos="fade-up">
+          About Retrofit Coordination
         </h1>
-        <p id="" className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Retrofit coordination is a crucial service that ensures the smooth implementation of energy efficiency improvements in your property. Our coordinators act as the central point of contact, managing all aspects of the retrofit process from initial assessment to final completion.
-          <br />
-          <br />
-          We work closely with all stakeholders, including property owners, contractors, and local authorities, to ensure that the retrofit project meets all requirements and delivers optimal results.
+        <p className="text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
+          Our retrofit coordination service takes the stress out of managing your energy efficiency improvements. We handle all aspects of your project, from initial planning to final completion, ensuring everything runs smoothly and efficiently.
         </p>
         <hr />
-        <img
-          src="/images/Retrofit-Coordination.jpeg"
-          className="w-[100%] h-[60%] rounded-lg mx-auto"
-          alt="Retrofit Coordination Process"
-        />
-        <hr className="border-gray-300 mt-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          What is Retrofit Coordination?
-        </h1>
-        <Paragarh text="Retrofit coordination involves managing and overseeing the entire retrofit process, ensuring that all work is carried out to the highest standards and in compliance with relevant regulations. The coordinator acts as the main point of contact between all parties involved in the project." />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="100">
+            <h3 className="text-xl font-bold mb-4">Project Planning</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Timeline development
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Resource allocation
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Budget management
+              </li>
+            </ul>
+          </div>
 
-        <Paragarh text="This service is particularly important for complex retrofit projects where multiple measures are being implemented simultaneously or in sequence. The coordinator ensures that all work is properly planned, coordinated, and executed." />
+          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="200">
+            <h3 className="text-xl font-bold mb-4">Contractor Management</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Contractor selection
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Quality control
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Progress monitoring
+              </li>
+            </ul>
+          </div>
 
-        <hr className="border-gray-300 mt-10 "  />
+          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="300">
+            <h3 className="text-xl font-bold mb-4">Project Delivery</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Schedule management
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Issue resolution
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Final inspection
+              </li>
+            </ul>
+          </div>
+        </div>
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Benefits of Retrofit Coordination
-        </h1>
+        <div className="mt-12" data-aos="fade-up">
+          <h2 className="text-xl font-bold mb-4">Our Coordination Process</h2>
+          <div className="space-y-6">
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="100">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">1</div>
+              <div>
+                <h3 className="font-bold mb-2">Initial Consultation</h3>
+                <p className="text-gray-600">We discuss your goals and requirements, assess your property, and develop a comprehensive plan.</p>
+              </div>
+            </div>
 
-        <p className="pb-4">
-          <ul className="list-disc list-inside">
-            <li className="text-black font-semibold ml-6 mb-2">Ensures smooth project implementation</li>
-            <li className="text-black font-semibold ml-6 mb-2">Minimizes disruption to occupants</li>
-            <li className="text-black font-semibold ml-6 mb-2">Maintains quality standards throughout the project</li>
-            <li className="text-black font-semibold ml-6 mb-2">Coordinates multiple contractors and specialists</li>
-            <li className="text-black font-semibold ml-6 mb-2">Ensures compliance with building regulations</li>
-          </ul>
-        </p>
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="200">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">2</div>
+              <div>
+                <h3 className="font-bold mb-2">Contractor Selection</h3>
+                <p className="text-gray-600">We carefully select and vet contractors who specialize in the required retrofit measures.</p>
+              </div>
+            </div>
 
-        <hr className="border-gray-300 mb-10 "  />
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="300">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">3</div>
+              <div>
+                <h3 className="font-bold mb-2">Project Management</h3>
+                <p className="text-gray-600">We oversee the entire project, ensuring work is completed to the highest standards.</p>
+              </div>
+            </div>
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Coordination Process
-        </h1>
-        <p className="pb-4 text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Our coordination process includes:
-          <br /><br />
-          • Initial project planning and scheduling
-          <br />
-          • Contractor selection and management
-          <br />
-          • Quality control and monitoring
-          <br />
-          • Health and safety oversight
-          <br />
-          • Progress reporting and documentation
-          <br />
-          • Final inspection and sign-off
-        </p>
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="400">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">4</div>
+              <div>
+                <h3 className="font-bold mb-2">Quality Assurance</h3>
+                <p className="text-gray-600">We conduct thorough inspections to ensure all work meets our high standards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <img src="/images/House-Rating-800x450.webp" alt="Retrofit Coordination Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Key Responsibilities
-        </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          As retrofit coordinators, we:
-          <br /><br />
-          • Develop and maintain project schedules
-          <br />
-          • Coordinate between different contractors
-          <br />
-          • Monitor work quality and progress
-          <br />
-          • Manage health and safety requirements
-          <br />
-          • Handle documentation and reporting
-          <br />
-          • Resolve any issues that arise
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Project Management
-        </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Our project management approach includes:
-          <br /><br />
-          • Detailed project planning
-          <br />
-          • Regular progress meetings
-          <br />
-          • Quality assurance checks
-          <br />
-          • Risk management
-          <br />
-          • Budget monitoring
-          <br />
-          • Stakeholder communication
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h2 className="text-lg border-gray-300  font-bold pt-6">
-          Why Choose Our Coordination Service?
-        </h2>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Our retrofit coordination service offers:
-          <br /><br />
-          • Experienced and qualified coordinators
-          <br />
-          • Comprehensive project oversight
-          <br />
-          • Strong relationships with contractors
-          <br />
-          • Detailed documentation and reporting
-          <br />
-          • Commitment to quality and safety
-        </p>
+        <div className="mt-12" data-aos="fade-up">
+          <h2 className="text-xl font-bold mb-4">Start Your Project</h2>
+          <p className="text-gray-600 mb-6" data-aos="fade-up" data-aos-delay="100">
+            Ready to improve your home's energy efficiency? Let us coordinate your retrofit project for a stress-free experience.
+          </p>
+          <RouterLink 
+            to="/contact"
+            className="inline-block bg-[#FF8C00] text-white px-6 py-3 rounded-lg hover:bg-[#E67E00] transition-colors"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Get Started
+          </RouterLink>
+        </div>
       </div>
     </div>
   );

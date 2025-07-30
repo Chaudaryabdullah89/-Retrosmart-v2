@@ -58,6 +58,8 @@ const Nav = () => {
                                 </ul>
                             </li>
                             <li><Link to='/About-Us' className='text-gray-700 hover:text-green-600 transition-colors duration-200'>About Us</Link></li>
+                            <li><Link to='/blog' className='text-gray-700 hover:text-green-600 transition-colors duration-200'>Blogs</Link></li>
+                           
                             <li className="relative group">
                                 <Link to='/Services' className="text-gray-700 hover:text-green-600 transition-colors duration-200 flex items-center">
                                     Services
@@ -73,7 +75,7 @@ const Nav = () => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/retrofit-coordination" className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600">
+                                        <Link to="/Retrofit-coordination" className="block px-4 py-2 text-gray-700 hover:bg-green-50 hover:text-green-600">
                                             Retrofit Coordination
                                         </Link>
                                     </li>

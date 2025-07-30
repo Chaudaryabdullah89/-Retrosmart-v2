@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passcode Test</title>
+</head>
+<body>
+    <h1>Passcode Verification Test</h1>
+    <input type="text" id="passcode" placeholder="Enter passcode (123456)" />
+    <button onclick="testPasscode()">Test Passcode</button>
+    <div id="result"></div>
+
+    <script>
+        async function testPasscode() {
+            const passcode = document.getElementById('passcode').value;
+            const resultDiv = document.getElementById('result');
+            
+            try {
+                const response = await fetch('http://localhost:3000/api/verification/passcode', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ passcode })
+                });
+                
+                const data = await response.json();
+                resultDiv.innerHTML = `
+                    <h3>Response:</h3>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h3>Error:</h3>
+                    <pre>${error.message}</pre>
+                `;
+            }
+        }
+    </script>
+</body>
+</html> 

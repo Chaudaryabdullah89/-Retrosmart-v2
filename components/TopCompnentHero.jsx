@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const TopCompnentHero = (props) => {
   return (
     <div>
@@ -25,12 +25,15 @@ const TopCompnentHero = (props) => {
           {props.description} 
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button onClick={() => window.location.href = props.onClick1} className="bg-green-600 text-white px-8 py-2 rounded-full hover:bg-green-700 transition duration-300 text-md font-semibold">
-          {props.value1}
-            </button>
-            <button onClick={() => window.location.href = props.onClick2} className="bg-transparent border-2 border-white text-white px-8 py-2 rounded-full hover:bg-white hover:text-green-600 transition duration-300 text-md font-semibold">
+          {  (props.onClick1 && props.value1) && (
+            <Link to={props.onClick1} className="bg-green-600 text-white px-8 py-2 rounded-full hover:bg-green-700 transition duration-300 text-md font-semibold">
+              {props.value1}
+            </Link>
+            )}
+
+            {/* <Link to={props.onClick2} className="bg-transparent border-2 border-white text-white px-8 py-2 rounded-full hover:bg-white hover:text-green-600 transition duration-300 text-md font-semibold">
               {props.value2}
-            </button>
+            </Link> */}
           </div>
         </div>
 

@@ -1,143 +1,107 @@
 import React from "react";
 import TopCompnentHero from "./TopCompnentHero";
 import Paragarh from "./Paragarh";
+import { Link as RouterLink } from "react-router-dom";
+
 const RetrofitAssessment = () => {
   return (
     <div>
       <TopCompnentHero
         title="Retrofit Assessment"
-        description="Get a comprehensive assessment of your property's energy efficiency and identify the best retrofit solutions to improve its performance."
-        value1="Get Free Quote"
+        description="Get a comprehensive assessment of your property's energy performance and identify opportunities for improvement with our expert retrofit assessment services."
+        value1="Book Assessment"
         value2="Learn More"
         image="/images/team-member-4.jpg"
-        onClick2="/Retrofit-Assessment"
-        onClick1="/Contact"
+       onClick2="#details"
+        onClick1="/contact"
       />
-      <div
-        id=""
-        className="container max-w-5xl mx-auto px-4 py-16 space-y-4 "
-      >
-        <h1 id="details" className="text-2xl font-bold">
-          More about Retrofit Assessment
+      <div className="container max-w-5xl mx-auto px-4 py-16 space-y-4">
+        <h1 id="details" className="text-2xl font-bold" data-aos="fade-up">
+          About Retrofit Assessment
         </h1>
-        <p id="" className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          A retrofit assessment is a comprehensive evaluation of your property's current energy performance and potential for improvement. This detailed analysis helps identify the most effective measures to enhance your home's energy efficiency and reduce carbon emissions.
-          <br />
-          <br />
-          Our expert assessors use advanced tools and techniques to provide you with a clear understanding of your property's energy performance and recommend the most suitable retrofit solutions.
+        <p className="text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
+          A retrofit assessment is a detailed evaluation of your property's current energy performance and potential for improvement. Our expert assessors use advanced tools and techniques to identify the most effective energy-saving measures for your home.
         </p>
         <hr />
-        <img
-          src="/images/team-member-5.jpg"
-          className="w-[100%] h-[60%] rounded-lg mx-auto"
-          alt="Retrofit Assessment Process"
-        />
-        <hr className="border-gray-300 mt-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          What is a Retrofit Assessment?
-        </h1>
-        <Paragarh text="A retrofit assessment is a detailed evaluation of your property's energy performance, identifying areas where energy efficiency can be improved. It considers factors such as building fabric, heating systems, ventilation, and renewable energy potential." />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div className="space-y-4" data-aos="fade-right">
+            <h2 className="text-xl font-bold" data-aos="fade-up">What We Assess</h2>
+            <ul className="space-y-2" data-aos="fade-up" data-aos-delay="100">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Building fabric and insulation
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Heating and ventilation systems
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Energy consumption patterns
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Potential for renewable energy
+              </li>
+            </ul>
+          </div>
 
-        <Paragarh text="The assessment provides a roadmap for improving your property's energy efficiency, helping you make informed decisions about which retrofit measures to implement and in what order." />
+          <div className="space-y-4" data-aos="fade-left">
+            <h2 className="text-xl font-bold" data-aos="fade-up">Assessment Process</h2>
+            <ul className="space-y-2" data-aos="fade-up" data-aos-delay="100">
+              <li className="flex items-center">
+                <span className="text-[#FF8C00] mr-2">1.</span>
+                Initial property survey
+              </li>
+              <li className="flex items-center">
+                <span className="text-[#FF8C00] mr-2">2.</span>
+                Energy performance analysis
+              </li>
+              <li className="flex items-center">
+                <span className="text-[#FF8C00] mr-2">3.</span>
+                Detailed recommendations
+              </li>
+              <li className="flex items-center">
+                <span className="text-[#FF8C00] mr-2">4.</span>
+                Cost-benefit analysis
+              </li>
+            </ul>
+          </div>
+        </div>
 
-        <hr className="border-gray-300 mt-10 "  />
+        <div className="mt-12" data-aos="fade-up">
+          <h2 className="text-xl font-bold mb-4">Assessment Benefits</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="100">
+              <h3 className="font-bold mb-2">Energy Savings</h3>
+              <p className="text-gray-600">Identify opportunities to reduce energy consumption and lower bills</p>
+            </div>
+            <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="200">
+              <h3 className="font-bold mb-2">Comfort Improvement</h3>
+              <p className="text-gray-600">Enhance thermal comfort and indoor air quality</p>
+            </div>
+            <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="300">
+              <h3 className="font-bold mb-2">Property Value</h3>
+              <p className="text-gray-600">Increase your property's value and marketability</p>
+            </div>
+          </div>
+        </div>
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Benefits of Retrofit Assessment
-        </h1>
-
-        <p className="pb-4">
-          <ul className="list-disc list-inside">
-            <li className="text-black font-semibold ml-6 mb-2">Identifies the most cost-effective energy efficiency measures</li>
-            <li className="text-black font-semibold ml-6 mb-2">Provides a clear roadmap for property improvements</li>
-            <li className="text-black font-semibold ml-6 mb-2">Helps prioritize retrofit measures based on impact and cost</li>
-            <li className="text-black font-semibold ml-6 mb-2">Supports access to funding and grants</li>
-            <li className="text-black font-semibold ml-6 mb-2">Ensures compliance with building regulations</li>
-          </ul>
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Assessment Process
-        </h1>
-        <p className="pb-4 text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Our comprehensive assessment process includes:
-          <br /><br />
-          • Detailed property survey and measurements
-          <br />
-          • Thermal imaging and air tightness testing
-          <br />
-          • Analysis of current heating and ventilation systems
-          <br />
-          • Assessment of building fabric and insulation
-          <br />
-          • Evaluation of renewable energy potential
-          <br />
-          • Production of detailed report and recommendations
-        </p>
-
-        <img src="/images/Energize-Your-Home.webp" alt="Retrofit Assessment Tools" className="w-[100%] h-[60%] rounded-lg mx-auto" />
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Key Areas Assessed
-        </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Our assessment covers all critical aspects of your property:
-          <br /><br />
-          • Building fabric and thermal performance
-          <br />
-          • Heating and hot water systems
-          <br />
-          • Ventilation and air quality
-          <br />
-          • Lighting and electrical systems
-          <br />
-          • Renewable energy potential
-          <br />
-          • Water efficiency
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Assessment Report
-        </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Following the assessment, you'll receive a detailed report that includes:
-          <br /><br />
-          • Current energy performance rating
-          <br />
-          • Identified improvement opportunities
-          <br />
-          • Prioritized list of recommended measures
-          <br />
-          • Estimated costs and potential savings
-          <br />
-          • Available funding and grant options
-          <br />
-          • Implementation timeline and phasing recommendations
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h2 className="text-lg border-gray-300  font-bold pt-6">
-          Next Steps After Assessment
-        </h2>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          After receiving your assessment report, we can help you:
-          <br /><br />
-          • Develop a detailed retrofit plan
-          <br />
-          • Access available funding and grants
-          <br />
-          • Coordinate with contractors and specialists
-          <br />
-          • Monitor and verify the effectiveness of implemented measures
-        </p>
+        <div className="mt-12" data-aos="fade-up">
+          <h2 className="text-xl font-bold mb-4">Book Your Assessment</h2>
+          <p className="text-gray-600 mb-6" data-aos="fade-up" data-aos-delay="100">
+            Ready to improve your home's energy performance? Book a comprehensive retrofit assessment with our experts today.
+          </p>
+          <RouterLink 
+            to="/contact"
+            className="inline-block bg-[#FF8C00] text-white px-6 py-3 rounded-lg hover:bg-[#E67E00] transition-colors"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Schedule Assessment
+          </RouterLink>
+        </div>
       </div>
     </div>
   );

@@ -2,45 +2,46 @@ import React from 'react'
 
 const Eligibilityform = () => {
   return (
-    
     <section className='py-20 border-t-2 border-gray-200 bg-gray-50'>
       <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='text-center mb-12'>
-          <img 
-            src="/images/6580d2de5a248f6ff386e2fc-1-1-1-1024x695.png"
-            alt="Gov logo" 
-            className='w-32 mx-auto mb-6'
-          />
-          <h2 className='text-3xl font-bold text-emerald-800 mb-4' style={{ fontFamily: 'Lora' }}>
-            Check Your Eligibility
-          </h2>
-          <p className='text-gray-600' style={{ fontFamily: 'Barlow' }}>
-            Please complete the form to check your eligibility
-          </p>
-        </div>
-
         <form 
           className='relative rounded-xl shadow-lg p-8 overflow-hidden'
           style={{
-            backgroundImage: 'url("/images/Energize-Your-Home.webp")',
+            backgroundImage: "url('/images/Mainformbg.png')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
           }}
           action="https://formsubmit.co/info@retrosmart.co.uk"
           method="POST"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
+          <div className='text-center mb-12' data-aos="fade-up" data-aos-delay="100">
+            <img 
+              src="/images/6580d2de5a248f6ff386e2fc-1-1-1-1024x695.png"
+              alt="Gov logo" 
+              className='w-32 mx-auto mb-6 transform hover:scale-110 transition-transform duration-300'
+            />
+            <h2 className='text-3xl font-bold text-emerald-800 mb-4' style={{ fontFamily: 'Lora' }}>
+              Check Your Eligibility
+            </h2>
+            <p className='text-white' style={{ fontFamily: 'Barlow' }}>
+              Please complete the form to check your eligibility
+            </p>
+          </div>
+
           {/* Overlay */}
           <div className='absolute inset-0 bg-black/30'></div>
           
           <div className='relative z-10'>
             {/* Homeowner Question */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="200">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 Are you a homeowner?
               </label>
               <div className='flex gap-8'>
-                <label className='flex items-center space-x-2 cursor-pointer'>
+                <label className='flex items-center space-x-2 cursor-pointer transform hover:scale-105 transition-transform duration-300'>
                   <input 
                     type="radio" 
                     name="homeowner" 
@@ -49,7 +50,7 @@ const Eligibilityform = () => {
                   />
                   <span className='text-white' style={{ fontFamily: 'Barlow' }}>Yes</span>
                 </label>
-                <label className='flex items-center space-x-2 cursor-pointer'>
+                <label className='flex items-center space-x-2 cursor-pointer transform hover:scale-105 transition-transform duration-300'>
                   <input 
                     type="radio" 
                     name="homeowner" 
@@ -62,12 +63,12 @@ const Eligibilityform = () => {
             </div>
 
             {/* Boiler Question */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="300">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 Was your boiler installed before 2005?
               </label>
               <div className='flex gap-8'>
-                <label className='flex items-center space-x-2 cursor-pointer'>
+                <label className='flex items-center space-x-2 cursor-pointer transform hover:scale-105 transition-transform duration-300'>
                   <input 
                     type="radio" 
                     name="boiler" 
@@ -76,7 +77,7 @@ const Eligibilityform = () => {
                   />
                   <span className='text-white' style={{ fontFamily: 'Barlow' }}>Yes</span>
                 </label>
-                <label className='flex items-center space-x-2 cursor-pointer'>
+                <label className='flex items-center space-x-2 cursor-pointer transform hover:scale-105 transition-transform duration-300'>
                   <input 
                     type="radio" 
                     name="boiler" 
@@ -89,12 +90,12 @@ const Eligibilityform = () => {
             </div>
 
             {/* Benefits Question */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="400">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 Are you or anyone in your household receiving benefits?
               </label>
               <div className='flex gap-8'>
-                <label className='flex items-center space-x-2 cursor-pointer'>
+                <label className='flex items-center space-x-2 cursor-pointer transform hover:scale-105 transition-transform duration-300'>
                   <input 
                     type="radio" 
                     name="benefits" 
@@ -103,7 +104,7 @@ const Eligibilityform = () => {
                   />
                   <span className='text-white' style={{ fontFamily: 'Barlow' }}>Yes</span>
                 </label>
-                <label className='flex items-center space-x-2 cursor-pointer'>
+                <label className='flex items-center space-x-2 cursor-pointer transform hover:scale-105 transition-transform duration-300'>
                   <input 
                     type="radio" 
                     name="benefits" 
@@ -116,12 +117,12 @@ const Eligibilityform = () => {
             </div>
 
             {/* Benefit Type Dropdown */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="500">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 Identify your benefit?
               </label>
               <select 
-                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90'
+                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90 transform hover:scale-105'
                 style={{ fontFamily: 'Barlow' }}
               >
                 <option value="">Choose...</option>
@@ -140,12 +141,12 @@ const Eligibilityform = () => {
             </div>
 
             {/* Property Type Dropdown */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="600">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 Select property type?
               </label>
               <select 
-                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90'
+                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90 transform hover:scale-105'
                 style={{ fontFamily: 'Barlow' }}
               >
                 <option value="">Choose...</option>
@@ -159,12 +160,12 @@ const Eligibilityform = () => {
             </div>
 
             {/* Heating System Dropdown */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="700">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 How do you keep your home warm?
               </label>
               <select 
-                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90'
+                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90 transform hover:scale-105'
                 style={{ fontFamily: 'Barlow' }}
               >
                 <option value="">Choose...</option>
@@ -182,12 +183,12 @@ const Eligibilityform = () => {
             </div>
 
             {/* Insulation Measure Dropdown */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="800">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 Which insulation measure are you interested in?
               </label>
               <select 
-                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90'
+                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90 transform hover:scale-105'
                 style={{ fontFamily: 'Barlow' }}
               >
                 <option value="">Choose...</option>
@@ -201,12 +202,12 @@ const Eligibilityform = () => {
             </div>
 
             {/* Contact Time Dropdown */}
-            <div className='mb-8'>
+            <div className='mb-8' data-aos="fade-up" data-aos-delay="900">
               <label className='block text-lg font-semibold text-white mb-4' style={{ fontFamily: 'Lora' }}>
                 Best time to contact you?
               </label>
               <select 
-                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90'
+                className='w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent transition-all duration-300 bg-white/90 transform hover:scale-105'
                 style={{ fontFamily: 'Barlow' }}
               >
                 <option value="">Choose...</option>
@@ -222,7 +223,7 @@ const Eligibilityform = () => {
             <input type="hidden" name="_next" value="https://www.retrosmart.co.uk/submit" />
 
             {/* Submit Button */}
-            <div className='text-center'>
+            <div className='text-center' data-aos="fade-up" data-aos-delay="1000">
               <button 
                 type="submit"
                 className='px-8 py-4 bg-amber-600 text-white rounded-full font-semibold hover:bg-emerald-800 transition-all duration-300 transform hover:scale-105'
@@ -233,7 +234,7 @@ const Eligibilityform = () => {
             </div>
           </div>
         </form>
-    </div>
+      </div>
     </section>
   )
 }

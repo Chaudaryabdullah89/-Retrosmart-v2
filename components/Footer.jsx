@@ -57,7 +57,7 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-semibold text-white mb-4">Additional Information</h4>
             <ul className="space-y-2">
-              <li><Link to="/eco4-grant" className="text-gray-300 hover:text-amber-600 transition-colors duration-300">What Is Eco4 Grant</Link></li>
+              <li><Link to="/Grant-And-Funding" className="text-gray-300 hover:text-amber-600 transition-colors duration-300">What Is Eco4 Grant</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-amber-600 transition-colors duration-300">What We Provide</Link></li>
               <li><Link to="/Grant-And-Funding" className="text-gray-300 hover:text-amber-600 transition-colors duration-300">Case Studies</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-amber-600 transition-colors duration-300">Make the Enquiry</Link></li>

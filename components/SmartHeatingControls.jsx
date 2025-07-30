@@ -1,131 +1,136 @@
 import React from "react";
 import TopCompnentHero from "./TopCompnentHero";
 import Paragarh from "./Paragarh";
+import { Link as RouterLink } from "react-router-dom";
+
 const SmartHeatingControls = () => {
   return (
     <div>
       <TopCompnentHero
         title="Smart Heating Controls"
-        description="Upgrade your home's heating system with our smart heating controls. Gain precise control over your heating, reduce energy consumption, and enhance comfort."
-        value1="Get Free Quote"
+        description="Take control of your home's heating with our advanced smart heating control systems. Save energy and enhance comfort with intelligent temperature management."
+        value1="Get Quote"
         value2="Learn More"
         image="/images/The-Benefits-of-Smart-Heating-Controls-1.jpg"
-        onClick2="/Smart-Heating-Controls"
-        onClick1="/Contact"
+     onClick2="#details"
+        onClick1="/contact"
       />
-      <div
-        id=""
-        className="container max-w-5xl mx-auto px-4 py-16 space-y-4 "
-      >
-        <h1 id="details" className="text-2xl font-bold">
-          More about Smart Heating Controls
+      <div className="container max-w-5xl mx-auto px-4 py-16 space-y-4">
+        <h1 id="details" className="text-2xl font-bold" data-aos="fade-up">
+          About Smart Heating Controls
         </h1>
-        <p id="" className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Smart heating controls represent the future of home heating management. These advanced systems allow you to control your heating remotely, create personalized schedules, and optimize energy usage based on your lifestyle and preferences.
-          <br />
-          <br />
-          Our professional installation services ensure that your smart heating system is set up correctly and integrated seamlessly with your existing heating infrastructure.
+        <p className="text-gray-600" style={{ fontFamily: "Barlow" }} data-aos="fade-up" data-aos-delay="100">
+          Our smart heating control systems give you complete control over your home's temperature, allowing you to manage your heating efficiently and reduce energy consumption. With features like remote control, scheduling, and energy monitoring, you can optimize your heating system for maximum comfort and savings.
         </p>
         <hr />
-        <div className="w-full h-[400px] rounded-lg mx-auto">
-        <iframe className="w-full h-full rounded-lg mx-auto" src="https://www.youtube.com/embed/CihDMcUyXbA" title="Wiser - Smart Heating Controls That Take Care Of Your Home And The Planet | Wiser by Drayton" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="100">
+            <h3 className="text-xl font-bold mb-4">Key Features</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Remote control
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Smart scheduling
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Energy monitoring
+              </li>
+            </ul>
+          </div>
+
+          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="200">
+            <h3 className="text-xl font-bold mb-4">Benefits</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Energy savings
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Enhanced comfort
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Easy control
+              </li>
+            </ul>
+          </div>
+
+          <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="300">
+            <h3 className="text-xl font-bold mb-4">System Types</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Smart thermostats
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Zone controls
+              </li>
+              <li className="flex items-center">
+                <span className="text-green-500 mr-2">✓</span>
+                Learning systems
+              </li>
+            </ul>
+          </div>
         </div>
-        <hr className="border-gray-300 mt-10 "  />
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          What are smart heating controls?
-        </h1>
-        <Paragarh text="Smart heating controls are advanced systems that allow you to manage your home's heating remotely using a smartphone app or web interface. They provide precise control over temperature settings, scheduling, and energy usage." />
+        <div className="mt-12" data-aos="fade-up">
+          <h2 className="text-xl font-bold mb-4">How It Works</h2>
+          <div className="space-y-6">
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="100">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">1</div>
+              <div>
+                <h3 className="font-bold mb-2">System Assessment</h3>
+                <p className="text-gray-600">We evaluate your current heating system and recommend the best smart control solution.</p>
+              </div>
+            </div>
 
-        <Paragarh text="These systems typically include smart thermostats, smart radiator valves, and sometimes smart boilers. They can learn your heating preferences, adapt to your schedule, and even respond to weather conditions to optimize energy efficiency." />
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="200">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">2</div>
+              <div>
+                <h3 className="font-bold mb-2">Installation</h3>
+                <p className="text-gray-600">Our experts install your new smart heating controls with minimal disruption.</p>
+              </div>
+            </div>
 
-        <hr className="border-gray-300 mt-10 "  />
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="300">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">3</div>
+              <div>
+                <h3 className="font-bold mb-2">Setup & Training</h3>
+                <p className="text-gray-600">We configure your system and show you how to use all its features.</p>
+              </div>
+            </div>
 
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Benefits of Smart Heating Controls
-        </h1>
+            <div className="flex items-start" data-aos="fade-up" data-aos-delay="400">
+              <div className="bg-[#FF8C00] text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 flex-shrink-0">4</div>
+              <div>
+                <h3 className="font-bold mb-2">Ongoing Support</h3>
+                <p className="text-gray-600">We provide continuous support to ensure your system performs optimally.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <p className="pb-4">
-          <ul className="list-disc list-inside">
-            <li className="text-black font-semibold ml-6 mb-2">Remote control of your heating system from anywhere</li>
-            <li className="text-black font-semibold ml-6 mb-2">Energy savings through optimized heating schedules</li>
-            <li className="text-black font-semibold ml-6 mb-2">Personalized temperature control for different rooms</li>
-            <li className="text-black font-semibold ml-6 mb-2">Integration with other smart home devices</li>
-            <li className="text-black font-semibold ml-6 mb-2">Detailed energy usage reports and insights</li>
-          </ul>
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Types of Smart Heating Controls
-        </h1>
-        <p className="pb-4 text-gray-600" style={{ fontFamily: "Barlow" }}>
-          We offer various types of smart heating controls:
-          <br /><br />
-          • Smart Thermostats: Control your entire heating system from one device
-          <br />
-          • Smart Radiator Valves: Individual room temperature control
-          <br />
-          • Smart TRVs: Thermostatic Radiator Valves with smart features
-          <br />
-          • Smart Boiler Controls: Advanced control of your boiler
-          <br />
-          • Multi-zone Systems: Control different areas of your home independently
-        </p>
-
-        <img src="/images/Benefits-of-a-Smart-Control-System.jpg" alt="Types of Smart Heating Controls" className="w-[100%] h-[60%] rounded-lg mx-auto" />
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Installation Process
-        </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Our professional installation process includes:
-          <br /><br />
-          • Initial assessment of your current heating system
-          <br />
-          • Selection of appropriate smart controls
-          <br />
-          • Installation of the new system
-          <br />
-          • Configuration and setup of the smart features
-          <br />
-          • Testing and demonstration of the system
-          <br />
-          • Training on how to use the controls effectively
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h1 className="text-2xl  border-gray-300  font-bold pt-6">
-          Features and Capabilities
-        </h1>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Modern smart heating controls offer a range of features:
-          <br /><br />
-          • Remote control via smartphone app
-          <br />
-          • Learning capabilities to adapt to your schedule
-          <br />
-          • Geofencing to adjust heating based on your location
-          <br />
-          • Weather compensation to optimize heating
-          <br />
-          • Energy usage monitoring and reporting
-          <br />
-          • Integration with voice assistants
-        </p>
-
-        <hr className="border-gray-300 mb-10 "  />
-
-        <h2 className="text-lg border-gray-300  font-bold pt-6">
-          Energy Savings Potential
-        </h2>
-        <p className="text-gray-600" style={{ fontFamily: "Barlow" }}>
-          Smart heating controls can help reduce your energy consumption by up to 30% by ensuring your heating system operates only when needed and at optimal temperatures. The exact savings will depend on your current heating system and usage patterns.
-        </p>
+        <div className="mt-12" data-aos="fade-up">
+          <h2 className="text-xl font-bold mb-4">Get Smart Heating Controls</h2>
+          <p className="text-gray-600 mb-6" data-aos="fade-up" data-aos-delay="100">
+            Ready to upgrade your heating system with smart controls? Contact us to discuss your requirements.
+          </p>
+          <RouterLink 
+            to="/contact"
+            className="inline-block bg-[#FF8C00] text-white px-6 py-3 rounded-lg hover:bg-[#E67E00] transition-colors"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            Get Quote
+          </RouterLink>
+        </div>
       </div>
     </div>
   );

@@ -46,7 +46,7 @@ const Team = () => {
             <div 
               key={member.id}
               className="group flex flex-col items-center"
-              onClick={() => navigate('/about')}
+              onClick={() => navigate('/About-Us')}
             >
               {/* Circular Image Container */}
               <div className="relative w-36 h-36 mb-4 cursor-pointer">
@@ -55,7 +55,7 @@ const Team = () => {
                   <img 
                     src={member.image} 
                     alt={member.alt}
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110"
                   />
                 </div>
 

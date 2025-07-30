@@ -34,17 +34,21 @@ const HomeBenfits = () => {
   ]
 
   return (
-    <section className='py-20 '>
+    <section className='py-20'>
       <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
-        <h2 className='text-3xl text-center font-bold text-emerald-800 mb-12' style={{ fontFamily: 'Lora' }}>
+        <h2 className='text-3xl text-center font-bold text-emerald-800 mb-12' 
+            style={{ fontFamily: 'Lora' }}
+            data-aos="fade-up">
           See The Benefits
         </h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
-          {benefits.map((benefit) => (
+          {benefits.map((benefit, index) => (
             <div 
               key={benefit.id}
               className='bg-white rounded-xl p-6 border border-gray-200 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer'
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
             >
               <div className='flex items-center mb-4'>
                 <i className={`fas ${benefit.icon} text-4xl text-amber-600 mr-3`}></i>
