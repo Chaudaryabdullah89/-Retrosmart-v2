@@ -48,7 +48,7 @@ const CreateBlog = () => {
   };
 
   const handleFileSelect = async (e) => {
-    const file = e.target.files[0];
+      const file = e.target.files[0];
     if (file) {
       setSelectedFile(file);
       // Automatically upload the file
@@ -94,9 +94,9 @@ const CreateBlog = () => {
     } catch (error) {
       console.error('Upload error:', error);
       setError('Error uploading image');
-    } finally {
+      } finally {
       setUploading(false);
-    }
+      }
   };
 
   const handleSubmit = async (e) => {
@@ -150,21 +150,21 @@ const CreateBlog = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-6">
-              {/* Title */}
-              <div>
+          {/* Title */}
+          <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Title *
                 </label>
-                <input
-                  type="text"
+            <input
+              type="text"
                   name="title"
                   value={formData.title}
                   onChange={handleInputChange}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   placeholder="Enter blog title..."
-                  required
-                />
-              </div>
+              required
+            />
+          </div>
 
               {/* Excerpt */}
               <div>
@@ -203,13 +203,13 @@ const CreateBlog = () => {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              {/* Author */}
-              <div>
+          {/* Author */}
+          <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Author
                 </label>
-                <input
-                  type="text"
+            <input
+              type="text"
                   name="author"
                   value={formData.author}
                   onChange={handleInputChange}
@@ -262,9 +262,9 @@ const CreateBlog = () => {
                     onChange={handleInputChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     placeholder="https://example.com/image.jpg"
-                  />
-                </div>
-                
+            />
+          </div>
+
                 {/* Image Preview */}
                 {formData.image && (
                   <div className="mt-2">
@@ -281,7 +281,7 @@ const CreateBlog = () => {
               </div>
 
               {/* Status */}
-              <div>
+          <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Status
                 </label>
@@ -333,11 +333,11 @@ const CreateBlog = () => {
                       </button>
                     </span>
                   ))}
-                </div>
-              </div>
+            </div>
+          </div>
 
               {/* Preview */}
-              <div>
+          <div>
                 <h3 className="text-sm font-medium text-gray-700 mb-2">Preview</h3>
                 <div className="bg-gray-50 p-4 rounded-lg text-sm">
                   <h4 className="font-semibold mb-2">{formData.title || 'No title'}</h4>
@@ -349,7 +349,7 @@ const CreateBlog = () => {
                   </div>
                 </div>
               </div>
-            </div>
+          </div>
           </div>
 
           {/* Submit Button */}
