@@ -42,7 +42,7 @@ const handlepasscode = async (e) => {
     console.log("[handlepasscode] Sending POST request to /api/verification/passcode");
     console.log("[handlepasscode] Request payload:", { passcode: joinedPasscode });
     
-    const response = await axios.post("https://retro-bd.vercel.app//api/verification/passcode", {
+    const response = await axios.post("http://localhost:3000/api/verification/passcode", {
       passcode: joinedPasscode,
     }, {
       headers: {
