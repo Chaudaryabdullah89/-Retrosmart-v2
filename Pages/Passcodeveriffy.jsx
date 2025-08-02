@@ -146,7 +146,7 @@ const handlepasscode = async (e) => {
         onClick={async () => {
           try {
             console.log("Testing API directly...");
-            const response = await axios.post("http://localhost:3000/api/verification/passcode", {
+            const response = await axios.post("https://v2-db.vercel.app/api/verification/passcode", {
               passcode: "123456"
             });
             console.log("Test response:", response.data);

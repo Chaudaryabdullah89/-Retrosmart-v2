@@ -15,7 +15,7 @@ const AuthTest = () => {
       }
 
       try {
-        const response = await fetch('http://localhost:3000/api/admin/blog', {
+        const response = await fetch('https://v2-db.vercel.app/api/admin/blog', {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${storedToken}`,
