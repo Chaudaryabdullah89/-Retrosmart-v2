@@ -59,7 +59,7 @@ const Nav = () => {
                             </li>
                             <li><Link to='/About-Us' className='text-gray-700 hover:text-green-600 transition-colors duration-200'>About Us</Link></li>
                             <li><Link to='/blog' className='text-gray-700 hover:text-green-600 transition-colors duration-200'>Blogs</Link></li>
-                            <li><Link to='/admin/blog' className='text-gray-700 hover:text-green-600 transition-colors duration-200'>admin</Link></li>
+                            {/* <li><Link to='/admin/blog' className='text-gray-700 hover:text-green-600 transition-colors duration-200'>admin</Link></li> */}
                            
                            
                             <li className="relative group">

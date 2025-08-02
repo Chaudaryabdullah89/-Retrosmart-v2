@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { publicBlogService, blogUtils } from '../services/blogService';
+import CommentSection from '../components/CommentSection';
 
 const BlogDetail = () => {
   const { slug } = useParams();
@@ -135,7 +136,6 @@ const BlogDetail = () => {
               className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded-md transition"
               onClick={() => {
                 const url = encodeURIComponent(window.location.href);
-                const text = encodeURIComponent(blog.title);
                 window.open(
                   `https://www.facebook.com/sharer/sharer.php?u=${url}`,
                   "_blank",
@@ -175,6 +175,9 @@ const BlogDetail = () => {
             </button>
           </div>
         </div>
+
+        {/* Comments Section */}
+        <CommentSection blogId={blog._id} />
       </div>
 
       {/* Sidebar */}
