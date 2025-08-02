@@ -20,7 +20,7 @@ const ProtectedRoute = ({ children }) => {
       try {
         console.log("ProtectedRoute: Verifying token with backend...");
         // Verify token with backend
-        const response = await fetch('http://localhost:3000/api/admin/auth/verify', {
+        const response = await fetch('https://v2-db.vercel.app/api/admin/auth/verify', {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${token}`,
